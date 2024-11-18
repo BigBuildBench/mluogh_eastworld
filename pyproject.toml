@@ -1,0 +1,18 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Michael Luo", email = "deltameter@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+license = {text = "Apache2.0"}
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.pyright]
+strict = ["**/*"]
